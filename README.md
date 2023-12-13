@@ -1,3 +1,3 @@
 # GAME
 Guess The Number !
-<img src="gane.png">
+<img src="game.png">
