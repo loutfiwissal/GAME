@@ -14,9 +14,10 @@ def Check_Guess() :
 game =Tk()
 game.title("GUESS THE NUMBER !")
 
-Label(game, text="Guess The Nunber Between 1 And 100")
+lbl=Label(game, text="Guess The Nunber Between 1 And 100")
 number = Entry(game)
 number.pack()
+lbl.pack()
 
 Button ( game, text="Check!", command=Check_Guess).pack()
 
